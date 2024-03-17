@@ -1,0 +1,17 @@
+
+.menuicons{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    color: var(--textsoft);
+    padding-left: 2rem;
+}
+.menutext{
+    align-items: center;
+    padding-left: 1rem;
+    border-bottom: 2px solid whitesmoke;
+}
+.menuicons:hover, .active{
+    background-color: #2e374a;
+    border-radius: 20px;
+}
