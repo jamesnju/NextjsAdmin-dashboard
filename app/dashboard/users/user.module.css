@@ -1,0 +1,48 @@
+.container{
+   background-color: var(--bgsoft);
+   padding: 10px;
+   margin: 14px;
+}
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.addbutton{
+    padding: 10px;
+    background-color: #5d57c9;
+    border-radius: 5px;
+}
+.addbutton:hover{
+    background-color: brown;
+    transition: all 1s ease-in-out;
+}
+.table{
+  width: 100%;
+}
+.table td{
+    padding: 1px;
+}
+.users{
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+    align-items: center;
+}
+.view{
+    margin: 10px;
+    background-color: teal;
+    padding: 5px;
+    border-radius: 5px;
+}
+.delete{
+    margin: 10px;
+    border-radius: 5px;
+
+    padding: 5px;
+    background-color: red;
+}
+.userImage{
+    object-fit: cover;
+    border-radius: 1rem;
+}

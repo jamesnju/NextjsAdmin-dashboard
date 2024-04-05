@@ -10,3 +10,23 @@
     flex: 4;
     padding: 20px;
 }
+.wrapper{
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+.maincontent{
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.card{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    
+}
+.side{
+    flex: 1;
+}

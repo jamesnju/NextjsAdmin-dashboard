@@ -1,0 +1,37 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: var(--bgsoft);
+    border-radius: 20px;
+}
+.title{
+    font-weight: 200;
+    color: var(--textsoft);
+    border-bottom: 2px solid ghostwhite;
+    margin-bottom: 20px;
+}
+.user{
+    display: flex;
+    gap: 15px;
+    cursor: pointer;
+    /* flex-direction: row; */
+}
+.userImage{
+    border-radius: 50%;
+    object-fit: cover;
+}
+.status{
+    padding: 5px;color: white;
+    font-size: 14px;
+    border-radius: 5px;
+}
+.pending{
+    background-color: greenyellow;
+}
+.cancelled{
+    background-color: red;
+}
+.done{
+    background-color: green;
+}

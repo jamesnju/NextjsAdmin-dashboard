@@ -1,0 +1,15 @@
+.container{
+    display: flex;
+    align-items: center;
+    background-color: #2a374e;
+    padding: 10px;
+    border-radius: 10px;
+    width: max-content;
+    gap: 10px;
+}
+.input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: var(--textsoft);
+}
